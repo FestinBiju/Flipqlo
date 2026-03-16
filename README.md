@@ -89,6 +89,27 @@ Android output:
 - `android-src/app/src/main/java/com/flipqlo/screensaver/ClockEngine.kt` - clock timing and transitions
 - `android-src/app/src/main/java/com/flipqlo/screensaver/SettingsActivity.kt` - settings UI
 
+## Open Source
+
+Flipqlo is now a FOSS project under MIT License.
+
+- License: [LICENSE](LICENSE)
+- Contributing guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Code of conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Security policy: [SECURITY.md](SECURITY.md)
+- Support guide: [SUPPORT.md](SUPPORT.md)
+
+If you want to help, start with issues labeled `good first issue` or `help wanted`.
+
+## Maintainer Roadmap
+
+Near-term goals:
+
+1. Improve Android DreamService stability across OEM variants.
+2. Add more customization options (font weight, scale, color presets).
+3. Expand automated tests for clock transitions and settings persistence.
+4. Improve installer/distribution UX for Windows `.scr`.
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).

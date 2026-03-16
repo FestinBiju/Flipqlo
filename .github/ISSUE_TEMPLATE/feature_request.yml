@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest an enhancement
+labels: [enhancement]
+body:
+  - type: input
+    id: problem
+    attributes:
+      label: Problem statement
+      placeholder: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Describe your proposed behavior or design
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and impact
+      placeholder: Which platform is affected? Windows, Android, or both?
