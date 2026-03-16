@@ -1,10 +1,10 @@
-package com.fliqlo.screensaver
+package com.flipqlo.screensaver
 
 import android.graphics.Color
 
 /**
  * Design constants matching the Windows version exactly.
- * Mirrors FliqloScr.Engine.DesignTokens from the Windows codebase.
+ * Mirrors Flipqlo.Engine.DesignTokens from the Windows codebase.
  */
 object DesignTokens {
     // ── Colors ──────────────────────────────────────────────────────────

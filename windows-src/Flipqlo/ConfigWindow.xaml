@@ -1,7 +1,7 @@
-<Window x:Class="FliqloScr.ConfigWindow"
+<Window x:Class="Flipqlo.ConfigWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Fliqlo — Screen Saver Settings"
+        Title="Flipqlo — Screen Saver Settings"
         Width="420" Height="460"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
@@ -26,7 +26,7 @@
 
         <!-- Title -->
         <TextBlock Grid.Row="0"
-                   Text="Fliqlo Settings"
+                   Text="Flipqlo Settings"
                    FontSize="18" FontWeight="SemiBold"
                    Foreground="#D8D8D8"/>
 

@@ -8,8 +8,8 @@ Thumbs.db
 *.log
 
 # Windows build outputs
-windows-src/FliqloScr/bin/
-windows-src/FliqloScr/obj/
+windows-src/Flipqlo/bin/
+windows-src/Flipqlo/obj/
 
 # Android / Gradle build outputs
 android-src/.gradle/

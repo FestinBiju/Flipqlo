@@ -3,9 +3,9 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Threading;
-using FliqloScr.Engine;
+using Flipqlo.Engine;
 
-namespace FliqloScr.Rendering;
+namespace Flipqlo.Rendering;
 
 /// <summary>
 /// Custom WPF element that renders the entire flip clock using DrawingContext.

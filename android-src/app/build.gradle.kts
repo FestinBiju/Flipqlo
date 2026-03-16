@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.flipclo.screensaver"
+    namespace = "com.flipqlo.screensaver"
     compileSdk = 35
 
     signingConfigs {
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.flipclo.screensaver"
+        applicationId = "com.flipqlo.screensaver"
         minSdk = 21
         targetSdk = 35
         versionCode = 1

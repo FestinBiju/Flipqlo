@@ -24,14 +24,14 @@ jobs:
       - name: Publish screensaver
         shell: pwsh
         run: |
-          dotnet publish windows-src/FliqloScr/FliqloScr.csproj -c Release -f net10.0-windows -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true /p:EnableCompressionInSingleFile=true
-          Copy-Item windows-src/FliqloScr/bin/Release/net10.0-windows/win-x64/publish/FliqloScr.exe windows-src/FliqloScr/bin/Release/net10.0-windows/win-x64/publish/FliqloScr-Windows-x64.scr
+          dotnet publish windows-src/Flipqlo/Flipqlo.csproj -c Release -f net10.0-windows -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true /p:EnableCompressionInSingleFile=true
+          Copy-Item windows-src/Flipqlo/bin/Release/net10.0-windows/win-x64/publish/Flipqlo.exe windows-src/Flipqlo/bin/Release/net10.0-windows/win-x64/publish/Flipqlo-Windows-x64.scr
 
       - name: Upload windows artifact
         uses: actions/upload-artifact@v4
         with:
-          name: FliqloScr-Windows-x64
-          path: windows-src/FliqloScr/bin/Release/net10.0-windows/win-x64/publish/FliqloScr-Windows-x64.scr
+          name: Flipqlo-Windows-x64
+          path: windows-src/Flipqlo/bin/Release/net10.0-windows/win-x64/publish/Flipqlo-Windows-x64.scr
 
   build-android:
     runs-on: ubuntu-latest
@@ -52,13 +52,13 @@ jobs:
           ./gradlew assembleRelease
 
       - name: Rename APK
-        run: cp android-src/app/build/outputs/apk/release/app-release.apk android-src/app/build/outputs/apk/release/FliqloReborn-Android.apk
+        run: cp android-src/app/build/outputs/apk/release/app-release.apk android-src/app/build/outputs/apk/release/Flipqlo-Android.apk
 
       - name: Upload android artifact
         uses: actions/upload-artifact@v4
         with:
-          name: FliqloReborn-Android
-          path: android-src/app/build/outputs/apk/release/FliqloReborn-Android.apk
+          name: Flipqlo-Android
+          path: android-src/app/build/outputs/apk/release/Flipqlo-Android.apk
 
   publish-release:
     needs:
@@ -76,6 +76,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            release-assets/FliqloScr-Windows-x64.scr
-            release-assets/FliqloReborn-Android.apk
+            release-assets/Flipqlo-Windows-x64.scr
+            release-assets/Flipqlo-Android.apk
           generate_release_notes: true

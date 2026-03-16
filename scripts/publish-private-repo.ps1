@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$RepoName,
 
-    [string]$Description = "Fliqlo Reborn - Windows .scr + Android DreamService"
+    [string]$Description = "Flipqlo Reborn - Windows .scr + Android DreamService"
 )
 
 $ErrorActionPreference = "Stop"

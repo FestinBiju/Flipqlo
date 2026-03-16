@@ -1,10 +1,10 @@
 using System;
 using System.Windows;
 using System.Windows.Input;
-using FliqloScr.Native;
-using FliqloScr.Rendering;
+using Flipqlo.Native;
+using Flipqlo.Rendering;
 
-namespace FliqloScr;
+namespace Flipqlo;
 
 public partial class ScreensaverWindow : Window
 {

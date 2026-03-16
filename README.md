@@ -1,19 +1,19 @@
 <div align="center">
 
-# Fliqlo Reborn
+# Flipqlo Reborn
 
 A dual-platform flip clock screensaver project with a native Windows `.scr` and Android DreamService build in one repo.
 
-[![Windows Build](https://img.shields.io/badge/Windows-.scr-black?style=for-the-badge&logo=windows)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/FliqloScr-Windows-x64.scr)
-[![Android Build](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/FliqloReborn-Android.apk)
+[![Windows Build](https://img.shields.io/badge/Windows-.scr-black?style=for-the-badge&logo=windows)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Windows-x64.scr)
+[![Android Build](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Android.apk)
 [![Release](https://img.shields.io/github/v/release/<YOUR-USERNAME>/<YOUR-REPO>?style=for-the-badge)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases)
 
 </div>
 
 ## Download Now
 
-- Windows `.scr`: https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/FliqloScr-Windows-x64.scr
-- Android APK: https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/FliqloReborn-Android.apk
+- Windows `.scr`: https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Windows-x64.scr
+- Android APK: https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Android.apk
 
 After your first release, users can open this repo and download both builds directly from these links.
 
@@ -60,7 +60,7 @@ bash windows-src/build.sh
 
 Windows output:
 
-- `windows-src/FliqloScr/bin/Release/net10.0-windows/win-x64/publish/FliqloScr.scr`
+- `windows-src/Flipqlo/bin/Release/net10.0-windows/win-x64/publish/Flipqlo.scr`
 
 ### Android APK
 
@@ -77,17 +77,17 @@ Android output:
 
 ### Windows
 
-- `windows-src/FliqloScr/Program.cs` - `/s`, `/p`, `/c` screensaver modes
-- `windows-src/FliqloScr/ScreensaverWindow.xaml.cs` - full-screen + preview hosting logic
-- `windows-src/FliqloScr/Rendering/FlipClockRenderer.cs` - flip digit rendering and animation pipeline
-- `windows-src/FliqloScr/Engine/ClockEngine.cs` - clock timing and state transitions
+- `windows-src/Flipqlo/Program.cs` - `/s`, `/p`, `/c` screensaver modes
+- `windows-src/Flipqlo/ScreensaverWindow.xaml.cs` - full-screen + preview hosting logic
+- `windows-src/Flipqlo/Rendering/FlipClockRenderer.cs` - flip digit rendering and animation pipeline
+- `windows-src/Flipqlo/Engine/ClockEngine.cs` - clock timing and state transitions
 
 ### Android
 
-- `android-src/app/src/main/java/com/flipclo/screensaver/FlipClockDreamService.kt` - DreamService entry point
-- `android-src/app/src/main/java/com/flipclo/screensaver/FlipClockView.kt` - custom rendering view
-- `android-src/app/src/main/java/com/flipclo/screensaver/ClockEngine.kt` - clock timing and transitions
-- `android-src/app/src/main/java/com/flipclo/screensaver/SettingsActivity.kt` - settings UI
+- `android-src/app/src/main/java/com/flipqlo/screensaver/FlipClockDreamService.kt` - DreamService entry point
+- `android-src/app/src/main/java/com/flipqlo/screensaver/FlipClockView.kt` - custom rendering view
+- `android-src/app/src/main/java/com/flipqlo/screensaver/ClockEngine.kt` - clock timing and transitions
+- `android-src/app/src/main/java/com/flipqlo/screensaver/SettingsActivity.kt` - settings UI
 
 ## Automated Releases
 

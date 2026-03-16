@@ -1,4 +1,4 @@
-package com.fliqlo.screensaver
+package com.flipqlo.screensaver
 
 import android.service.dreams.DreamService
 import android.view.View
@@ -7,7 +7,7 @@ import android.view.View
  * Android DreamService — the system screensaver / daydream.
  *
  * Users enable this via:
- *   Settings → Display → Screen saver → Fliqlo Screensaver
+ *   Settings → Display → Screen saver → Flipqlo Screensaver
  *
  * The service creates a FlipClockView that fills the screen
  * with the same visual output as the Windows .scr version.

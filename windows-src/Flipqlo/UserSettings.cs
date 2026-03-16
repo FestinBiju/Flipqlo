@@ -1,11 +1,11 @@
 using System;
 using Microsoft.Win32;
 
-namespace FliqloScr;
+namespace Flipqlo;
 
 public sealed class UserSettings
 {
-    private const string RegistryPath = @"SOFTWARE\FliqloReborn";
+    private const string RegistryPath = @"SOFTWARE\Flipqlo";
 
     public bool Use24Hour { get; set; } = true;
     public bool ShowSeconds { get; set; } = false;

@@ -1,4 +1,4 @@
-package com.fliqlo.screensaver
+package com.flipqlo.screensaver
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

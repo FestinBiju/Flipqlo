@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "FlipcloScreensaver"
+rootProject.name = "FlipqloScreensaver"
 include(":app")

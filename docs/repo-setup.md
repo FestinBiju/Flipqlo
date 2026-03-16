@@ -5,8 +5,8 @@
 3. Replace `<YOUR-USERNAME>` and `<YOUR-REPO>` placeholders in `README.md`.
 4. Push a first version tag (example `v2.0.0`) to trigger release assets.
 5. Verify release contains:
-   - `FliqloScr-Windows-x64.scr`
-   - `FliqloReborn-Android.apk`
+   - `Flipqlo-Windows-x64.scr`
+   - `Flipqlo-Android.apk`
 
 ## Optional hardening
 

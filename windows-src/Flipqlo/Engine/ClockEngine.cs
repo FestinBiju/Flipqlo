@@ -1,6 +1,6 @@
 using System;
 
-namespace FliqloScr.Engine;
+namespace Flipqlo.Engine;
 
 /// <summary>
 /// Tracks current time and detects per-digit changes.

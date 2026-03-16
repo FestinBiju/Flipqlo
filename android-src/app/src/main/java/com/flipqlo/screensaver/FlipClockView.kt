@@ -1,4 +1,4 @@
-package com.fliqlo.screensaver
+package com.flipqlo.screensaver
 
 import android.content.Context
 import android.graphics.*
@@ -11,7 +11,7 @@ import androidx.preference.PreferenceManager
 
 /**
  * Custom View that renders the flip clock using Canvas.
- * Mirrors FliqloScr.Rendering.FlipClockRenderer from the Windows codebase.
+ * Mirrors Flipqlo.Rendering.FlipClockRenderer from the Windows codebase.
  *
  * Rendering logic is structurally identical to the WPF DrawingContext version
  * to guarantee visual parity across platforms.

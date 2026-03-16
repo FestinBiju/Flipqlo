@@ -1,10 +1,10 @@
-package com.fliqlo.screensaver
+package com.flipqlo.screensaver
 
 import java.util.Calendar
 
 /**
  * Tracks current time and detects per-digit changes.
- * Mirrors FliqloScr.Engine.ClockEngine from the Windows codebase.
+ * Mirrors Flipqlo.Engine.ClockEngine from the Windows codebase.
  */
 class ClockEngine(
     var use24Hour: Boolean = true,

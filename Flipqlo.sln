@@ -6,7 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "monorepo", "monorepo", "{2B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows-src", "windows-src", "{60042C3D-9536-3F09-EAB0-67BF3D235D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FliqloScr", "windows-src\FliqloScr\FliqloScr.csproj", "{D2C91DC5-12EF-FEBD-DD29-020BEE3CFDE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flipqlo", "windows-src\Flipqlo\Flipqlo.csproj", "{D2C91DC5-12EF-FEBD-DD29-020BEE3CFDE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,9 +2,9 @@ using System;
 using System.Globalization;
 using System.Windows;
 using System.Windows.Interop;
-using FliqloScr.Native;
+using Flipqlo.Native;
 
-namespace FliqloScr;
+namespace Flipqlo;
 
 public static class Program
 {

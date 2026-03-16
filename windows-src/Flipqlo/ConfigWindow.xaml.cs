@@ -1,9 +1,9 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using FliqloScr.Rendering;
+using Flipqlo.Rendering;
 
-namespace FliqloScr;
+namespace Flipqlo;
 
 public partial class ConfigWindow : Window
 {

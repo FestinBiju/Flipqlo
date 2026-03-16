@@ -1,4 +1,4 @@
-# FliqloReborn — Behavior Specification
+# Flipqlo — Behavior Specification
 
 ## Visual Identity
 A full-screen flip clock on a near-black background. The clock displays the

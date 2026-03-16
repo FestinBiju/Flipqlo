@@ -2,7 +2,7 @@ using System;
 using System.Windows;
 using System.Windows.Media;
 
-namespace FliqloScr.Engine;
+namespace Flipqlo.Engine;
 
 /// <summary>
 /// Platform-agnostic design constants derived from shared/design-tokens.json.
