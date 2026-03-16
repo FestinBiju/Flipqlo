@@ -20,7 +20,7 @@ A dual-platform flip clock screensaver project with a native Windows `.scr` and 
 
 | Windows Screensaver | Android DreamService |
 |---|---|
-| ![Windows Preview](docs/media/windows-preview.svg) | ![Android Screenshot](android-src/emulator-settings-screen.png) |
+| ![Windows Preview](docs/media/windows-preview.png) | ![Android Screenshot](android-src/emulator-settings-screen.png) |
 
 ## Usage Graph
 
