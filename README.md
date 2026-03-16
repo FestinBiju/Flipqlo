@@ -15,7 +15,6 @@ A dual-platform flip clock screensaver project with a native Windows `.scr` and 
 - Windows `.scr`: https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Windows-x64.scr
 - Android APK: https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Android.apk
 
-After your first release, users can open this repo and download both builds directly from these links.
 
 ## Visuals
 
