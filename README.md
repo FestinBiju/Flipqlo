@@ -6,7 +6,7 @@ A dual-platform flip clock screensaver project with a native Windows `.scr` and 
 
 [![Windows Build](https://img.shields.io/badge/Windows-.scr-black?style=for-the-badge&logo=windows)](https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Windows-x64.scr)
 [![Android Build](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Android.apk)
-[![Release](https://img.shields.io/github/v/release/FestinBiju/Flipqlo?style=for-the-badge)](https://github.com/FestinBiju/Flipqlo/releases)
+[![Release](https://img.shields.io/github/v/tag/FestinBiju/Flipqlo?sort=semver&style=for-the-badge&cacheSeconds=120)](https://github.com/FestinBiju/Flipqlo/releases)
 
 </div>
 
