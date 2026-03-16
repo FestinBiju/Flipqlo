@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/media/flipqlo.png" alt="Flipqlo Banner" width="100%" />
+
 # Flipqlo Reborn
 
 A dual-platform flip clock screensaver project with a native Windows `.scr` and Android DreamService build in one repo.
