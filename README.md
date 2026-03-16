@@ -107,34 +107,3 @@ To trigger a public download release, push a tag:
 git tag v2.0.0
 git push origin v2.0.0
 ```
-
-## Create Private GitHub Repo (Initial Setup)
-
-Fast path (after `gh auth login`):
-
-```powershell
-./scripts/publish-private-repo.ps1 -RepoName <YOUR-REPO>
-```
-
-```bash
-# from this project root
-git init
-git add .
-git commit -m "Initial monorepo: Windows + Android + release automation"
-
-# Requires GitHub CLI authenticated with your account
-gh repo create <YOUR-REPO> --private --source . --remote origin --push
-```
-
-If you already created the private repo in GitHub UI:
-
-```bash
-git remote add origin https://github.com/<YOUR-USERNAME>/<YOUR-REPO>.git
-git branch -M main
-git push -u origin main
-```
-
-## Notes
-
-- Replace every `<YOUR-USERNAME>` and `<YOUR-REPO>` in this README once the repo exists.
-- To match the README visuals, replace `docs/media/windows-preview.svg` with a real Windows screenshot at the same path.
