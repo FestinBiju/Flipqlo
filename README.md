@@ -110,6 +110,12 @@ git push origin v2.0.0
 
 ## Create Private GitHub Repo (Initial Setup)
 
+Fast path (after `gh auth login`):
+
+```powershell
+./scripts/publish-private-repo.ps1 -RepoName <YOUR-REPO>
+```
+
 ```bash
 # from this project root
 git init
