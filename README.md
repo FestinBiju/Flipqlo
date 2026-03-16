@@ -4,16 +4,16 @@
 
 A dual-platform flip clock screensaver project with a native Windows `.scr` and Android DreamService build in one repo.
 
-[![Windows Build](https://img.shields.io/badge/Windows-.scr-black?style=for-the-badge&logo=windows)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Windows-x64.scr)
-[![Android Build](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Android.apk)
-[![Release](https://img.shields.io/github/v/release/<YOUR-USERNAME>/<YOUR-REPO>?style=for-the-badge)](https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases)
+[![Windows Build](https://img.shields.io/badge/Windows-.scr-black?style=for-the-badge&logo=windows)](https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Windows-x64.scr)
+[![Android Build](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Android.apk)
+[![Release](https://img.shields.io/github/v/release/FestinBiju/Flipqlo?style=for-the-badge)](https://github.com/FestinBiju/Flipqlo/releases)
 
 </div>
 
 ## Download Now
 
-- Windows `.scr`: https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Windows-x64.scr
-- Android APK: https://github.com/<YOUR-USERNAME>/<YOUR-REPO>/releases/latest/download/Flipqlo-Android.apk
+- Windows `.scr`: https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Windows-x64.scr
+- Android APK: https://github.com/FestinBiju/Flipqlo/releases/latest/download/Flipqlo-Android.apk
 
 After your first release, users can open this repo and download both builds directly from these links.
 
