@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flipclo Screensaver</string>
+    <string name="pref_use_24_hour">Use 24-hour format</string>
+    <string name="pref_show_seconds">Show seconds</string>
+    <string name="pref_scale_category">Size &amp; Scale</string>
+    <string name="pref_horizontal_scale">Horizontal Width</string>
+    <string name="pref_vertical_scale">Vertical Height</string>
+    <string name="pref_overall_scale">Overall Scale</string>
+</resources>

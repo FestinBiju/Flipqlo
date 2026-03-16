@@ -1,0 +1,18 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#0A0A0A"/>
+  <rect x="220" y="190" width="180" height="320" rx="16" fill="#1C1C1C"/>
+  <rect x="420" y="190" width="180" height="320" rx="16" fill="#1C1C1C"/>
+  <rect x="680" y="190" width="180" height="320" rx="16" fill="#1C1C1C"/>
+  <rect x="880" y="190" width="180" height="320" rx="16" fill="#1C1C1C"/>
+  <rect x="220" y="350" width="180" height="2" fill="#0F0F0F"/>
+  <rect x="420" y="350" width="180" height="2" fill="#0F0F0F"/>
+  <rect x="680" y="350" width="180" height="2" fill="#0F0F0F"/>
+  <rect x="880" y="350" width="180" height="2" fill="#0F0F0F"/>
+  <circle cx="640" cy="300" r="8" fill="#3A3A3A"/>
+  <circle cx="640" cy="400" r="8" fill="#3A3A3A"/>
+  <text x="270" y="404" fill="#D8D8D8" font-size="160" font-family="Consolas, monospace">1</text>
+  <text x="470" y="404" fill="#D8D8D8" font-size="160" font-family="Consolas, monospace">2</text>
+  <text x="730" y="404" fill="#D8D8D8" font-size="160" font-family="Consolas, monospace">3</text>
+  <text x="930" y="404" fill="#D8D8D8" font-size="160" font-family="Consolas, monospace">4</text>
+  <text x="40" y="54" fill="#A0A0A0" font-size="28" font-family="Consolas, monospace">Windows Preview Placeholder - replace with actual screenshot</text>
+</svg>

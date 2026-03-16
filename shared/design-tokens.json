@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "name": "FliqloReborn",
+    "description": "Cross-platform flip clock screensaver design tokens",
+    "version": "1.0.0"
+  },
+  "colors": {
+    "background":         "#0A0A0A",
+    "cardFace":           "#1C1C1C",
+    "cardHighlight":      "#242424",
+    "digitColor":         "#D8D8D8",
+    "dividerLine":        "#0F0F0F",
+    "dividerShadow":      "#000000",
+    "colonColor":         "#3A3A3A",
+    "flapShadow":         "#00000080",
+    "cardBorder":         "#2A2A2A"
+  },
+  "animation": {
+    "flipDurationMs":     600,
+    "flipTopPhaseRatio":  0.5,
+    "flipBotPhaseRatio":  0.5,
+    "easingTop":          "easeIn",
+    "easingBottom":       "easeOut",
+    "staggerDelayMs":     0,
+    "tickIntervalMs":     250,
+    "flapShadowMaxAlpha": 0.35
+  },
+  "layout": {
+    "cardCornerRadiusPct":    4.0,
+    "cardAspectRatio":        0.75,
+    "dividerHeightPx":        2,
+    "dividerInsetPct":        0.0,
+    "digitToCardHeightPct":  68.0,
+    "colonWidthToCardPct":   25.0,
+    "interDigitGapPct":       3.0,
+    "groupGapPct":            6.0,
+    "clockToScreenHeightPct": 32.0,
+    "verticalCenterBias":     0.5
+  },
+  "typography": {
+    "fontWeight":  700,
+    "fontFamily":  "system-sans",
+    "monoDigits":  true,
+    "notes": "Uses platform default sans-serif bold. Tabular/monospace digits preferred for stable width."
+  },
+  "settings": {
+    "use24Hour":          true,
+    "showSeconds":        false,
+    "primaryScreenOnly":  false
+  }
+}

@@ -1,0 +1,30 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Windows build outputs
+windows-src/FliqloScr/bin/
+windows-src/FliqloScr/obj/
+
+# Android / Gradle build outputs
+android-src/.gradle/
+android-src/.kotlin/
+android-src/build/
+android-src/app/build/
+android-src/**/build/
+android-src/local.properties
+
+# Android Studio metadata
+android-src/.idea/
+
+# Release artifacts
+release-assets/
+dist/
+*.scr
+*.apk
+*.aab
