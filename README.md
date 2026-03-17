@@ -25,6 +25,10 @@ A dual-platform flip clock screensaver project with a native Windows `.scr` and 
 |---|---|
 | ![Windows Preview](docs/media/windows-preview.png) | ![Android Screenshot](android-src/emulator-settings-screen.png) |
 
+### Demo Video
+
+![Flipqlo Screensaver Demo](docs/media/video.gif)
+
 ## Usage Graph
 
 ```mermaid
