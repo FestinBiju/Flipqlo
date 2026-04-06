@@ -55,6 +55,14 @@ This monorepo keeps both codebases together but clearly separated by platform:
 - `shared/` - cross-platform design tokens and shared specs
 - `docs/` - screenshots, behavior spec, and docs assets
 
+## Use this on your device
+just download the latest version from the Releases window in the right side. You will have options to download for windows and android over there.
+### for windows
+- just right click on the downloaded .scr file and in the context window, you will have an option to install. click install and you will be good to go.
+### for android 
+- download the .apk file and install it on your device
+- after installation, go to the screen saver settings on your device and choose fliqlo.
+
 ## Build Locally
 
 ### Windows `.scr`
